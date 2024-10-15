@@ -6,10 +6,9 @@ $(document).ready(()=> {
     })
 
     $(".take-off").click(()=> {
-        $(this).toggleClass("active");
         
-        window.alert("Thanks for booking your flight with Vee Airline, you'll get a mail from us shortly!");
+        alert("Thanks for booking your flight with Vee Airline, you'll get a mail from us shortly!");
 
-        
+        $(this).toggleClass("active");
     })
 })
